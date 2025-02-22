@@ -1,0 +1,59 @@
+@import url('https://fonts.cdnfonts.com/css/digital-numbers');
+
+.body{
+    
+}
+.cal-container{
+    border-radius: 15px;
+}
+#button-container {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    grid-template-rows: repeat(5, 60px);
+}
+
+.num-18{
+    grid-column: 4;
+    grid-row: 4/6;
+}   
+
+
+
+#button-container button{
+    border: none;
+    margin: 3px;
+    border-radius: 8px;
+    font-family: 'Digital Numbers', sans-serif;    
+    font-weight: bold;
+}
+.numbers{
+    background-color: #ffffff;
+}
+.operators{
+    background-color: #da6c4a;
+}
+.methods{
+    background-color: #2d4e81;
+    color:  aliceblue;
+}
+#display-result{
+    background-color: rgb(215, 241, 214);
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    margin: 15px;
+    font-family: 'Digital Numbers', sans-serif;
+    text-align: right;
+    padding: 5px 10px;
+    font-size: 2rem;
+}
+.cal-container{
+    background-color: rgb(221, 221, 221);
+    padding: 10px;
+    width: fit-content;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow:  3px 3px rgba(0, 0, 0, 0.308);
+}
+
